@@ -33,7 +33,7 @@ fun Application.configureRouting() {
                 ExchangeRateResult(
                     from = from.orUnknown(),
                     to = to.orUnknown(),
-                    exchangeRate = exchangeRates[from]?.get(to) ?: 0.0
+                    exchangeRate = exchangeRates[from]?.get(to).orZero()
                 )
             )
         }
