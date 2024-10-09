@@ -1,6 +1,7 @@
-package com.example
+package com.rocketseat.conversor.moedas.api
 
-import com.example.plugins.*
+import com.rocketseat.conversor.moedas.api.plugins.configureRouting
+import com.rocketseat.conversor.moedas.api.plugins.configureSerialization
 import io.ktor.server.application.*
 
 fun main(args: Array<String>) {

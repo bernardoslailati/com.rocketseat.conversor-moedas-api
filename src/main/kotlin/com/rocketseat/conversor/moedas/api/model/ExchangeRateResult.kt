@@ -1,4 +1,4 @@
-package com.example.model
+package com.rocketseat.conversor.moedas.api.model
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

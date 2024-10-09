@@ -1,6 +1,6 @@
-package com.example.plugins
+package com.rocketseat.conversor.moedas.api.plugins
 
-import com.example.model.*
+import com.rocketseat.conversor.moedas.api.model.*
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.response.*
